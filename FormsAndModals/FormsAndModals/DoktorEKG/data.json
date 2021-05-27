@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Kounis Sendromu - Hipersensitiviteye Bağlı Koroner Sendrom",
+    "definition": "➡️ Mast hücre aktivasyonunun görüldüğü durumlarla eşzamanlı olarak ortaya çıkan akut koroner sendromdur.\n➡️ Kounis sendromunda anaflaksinin primer oluşum yeri ve hedefi kalptir.\n➡️ ️Öte yandan Kounis sendromu, hipersensitivite miyokarditi değildir ve ayırımı yapılmalıdır.",
+    "syndromeTypes": "Tip 1: Normal veya normale yakın koroner arterleri olan hastada koroner arter hastalığı için risk faktörleri yok iken akut allerjik atak ile beraber koroner arter spazmının ortaya çımasıdır. Bu sırada kardiyak enzimlerde yükselme olabilir veya olmayabilir.\nTip 2: Hastada sessiz ancak önceden var olan ateromatöz lezyonlar bulunur. Akut allerjik ataklar sırasında bu ateromatöz lezyonlarda koroner arter spazmı, plak erozyonu veya plak rüptürü gelişerek akut miyokard infarktüsüne yol açar.\nTip 3: İlaç kaplı stent implantasyonu ve stent trombozu sırasında gelişen hipersensitivite reaksiyonlarıdır.",
+    "anomalies": "Kounis Sendromunda görülebilen EKG anormallikleri",
+    "anomalylink": [
+      "Sinüs bradikardisi",
+      "Sinüs taşikardisi",
+      "Atriyal fibrilasyon",
+      "Nodal ritm", "ST segment çökmesi veya yükselmesi",
+      "T dalgası inversiyonu veya düzleşmesi",
+      "QRS genişlemesi",
+      "Uzamış QT intervali",
+      "Ventriküler aritmiler (sık VPS, ventriküler bigemine, ventriküler fibrilasyon)"
+      ],
+    "references": "-Future Cardiol 2011;7:805-824.\n-Can J Cardiol 2002;18:508-511.\n-Int J Cardiol 2010;145:553."
+    
+  }
+]

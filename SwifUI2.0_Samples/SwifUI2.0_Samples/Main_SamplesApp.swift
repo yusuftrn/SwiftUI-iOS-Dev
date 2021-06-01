@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct SwifUI2_0_SamplesApp: App {
+  
   var body: some Scene {
     WindowGroup {
       ContentView()

@@ -20,6 +20,10 @@
 		8827DC782665ABEF00A0E372 /* OutlineGroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC772665ABEF00A0E372 /* OutlineGroupExample.swift */; };
 		8827DC7A2665ACD400A0E372 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC792665ACD400A0E372 /* ListModel.swift */; };
 		8827DC7D2665AE6500A0E372 /* DisclosureGroupSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC7C2665AE6500A0E372 /* DisclosureGroupSample.swift */; };
+		8827DC862665BA2900A0E372 /* ForegroundOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC852665BA2900A0E372 /* ForegroundOperations.swift */; };
+		8827DC892665BD9200A0E372 /* CustomAppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC882665BD9200A0E372 /* CustomAppStorageView.swift */; };
+		8827DC8C2665BF9500A0E372 /* MatchedGeometrySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC8B2665BF9500A0E372 /* MatchedGeometrySample.swift */; };
+		8827DC8F2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827DC8E2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift */; };
 		88A5C0F826658B790035DD31 /* TextEditorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C0F726658B790035DD31 /* TextEditorExample.swift */; };
 		88A5C0FB26658F5D0035DD31 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C0FA26658F5D0035DD31 /* Counter.swift */; };
 		88A5C0FD26658FBF0035DD31 /* CountObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C0FC26658FBF0035DD31 /* CountObjectView.swift */; };
@@ -43,6 +47,10 @@
 		8827DC772665ABEF00A0E372 /* OutlineGroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupExample.swift; sourceTree = "<group>"; };
 		8827DC792665ACD400A0E372 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		8827DC7C2665AE6500A0E372 /* DisclosureGroupSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupSample.swift; sourceTree = "<group>"; };
+		8827DC852665BA2900A0E372 /* ForegroundOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundOperations.swift; sourceTree = "<group>"; };
+		8827DC882665BD9200A0E372 /* CustomAppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppStorageView.swift; sourceTree = "<group>"; };
+		8827DC8B2665BF9500A0E372 /* MatchedGeometrySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometrySample.swift; sourceTree = "<group>"; };
+		8827DC8E2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerMatchedGeometry.swift; sourceTree = "<group>"; };
 		88A5C0F726658B790035DD31 /* TextEditorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExample.swift; sourceTree = "<group>"; };
 		88A5C0FA26658F5D0035DD31 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		88A5C0FC26658FBF0035DD31 /* CountObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountObjectView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,10 @@
 		881A19F626657D7E0002B674 /* SwifUI2.0_Samples */ = {
 			isa = PBXGroup;
 			children = (
+				8827DC8D2665C4B300A0E372 /* MusicPlayer */,
+				8827DC8A2665BF7E00A0E372 /* matchedGeometryEffect */,
+				8827DC872665BD5F00A0E372 /* CustomObjectsWithAppStorage */,
+				8827DC842665BA1300A0E372 /* ForegroundOperations */,
 				8827DC7B2665AE5300A0E372 /* DisclosureGroup */,
 				8827DC762665ABC800A0E372 /* OutlineGroup */,
 				8827DC732665A98A00A0E372 /* AppStorage */,
@@ -162,6 +174,38 @@
 				8827DC7C2665AE6500A0E372 /* DisclosureGroupSample.swift */,
 			);
 			path = DisclosureGroup;
+			sourceTree = "<group>";
+		};
+		8827DC842665BA1300A0E372 /* ForegroundOperations */ = {
+			isa = PBXGroup;
+			children = (
+				8827DC852665BA2900A0E372 /* ForegroundOperations.swift */,
+			);
+			path = ForegroundOperations;
+			sourceTree = "<group>";
+		};
+		8827DC872665BD5F00A0E372 /* CustomObjectsWithAppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8827DC882665BD9200A0E372 /* CustomAppStorageView.swift */,
+			);
+			path = CustomObjectsWithAppStorage;
+			sourceTree = "<group>";
+		};
+		8827DC8A2665BF7E00A0E372 /* matchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				8827DC8B2665BF9500A0E372 /* MatchedGeometrySample.swift */,
+			);
+			path = matchedGeometryEffect;
+			sourceTree = "<group>";
+		};
+		8827DC8D2665C4B300A0E372 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8827DC8E2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift */,
+			);
+			path = MusicPlayer;
 			sourceTree = "<group>";
 		};
 		88A5C0F626658B6C0035DD31 /* TextEditor */ = {
@@ -268,12 +312,16 @@
 				8827DC702665A3ED00A0E372 /* CustomViewAndControls.swift in Sources */,
 				88A5C0F826658B790035DD31 /* TextEditorExample.swift in Sources */,
 				88A5C0FD26658FBF0035DD31 /* CountObjectView.swift in Sources */,
+				8827DC862665BA2900A0E372 /* ForegroundOperations.swift in Sources */,
 				88A5C102266599D30035DD31 /* TestRating.swift in Sources */,
+				8827DC8F2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift in Sources */,
 				88A5C100266598E10035DD31 /* RatingsView.swift in Sources */,
 				8827DC7A2665ACD400A0E372 /* ListModel.swift in Sources */,
 				8827DC782665ABEF00A0E372 /* OutlineGroupExample.swift in Sources */,
 				881A1A0926657F5D0002B674 /* LazyVerticalGrid.swift in Sources */,
+				8827DC8C2665BF9500A0E372 /* MatchedGeometrySample.swift in Sources */,
 				881A19F826657D7E0002B674 /* Main_SamplesApp.swift in Sources */,
+				8827DC892665BD9200A0E372 /* CustomAppStorageView.swift in Sources */,
 				881A1A122665868B0002B674 /* ColorDatePickerExample.swift in Sources */,
 				88A5C0FB26658F5D0035DD31 /* Counter.swift in Sources */,
 			);

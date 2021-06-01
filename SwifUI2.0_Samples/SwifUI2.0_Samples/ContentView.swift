@@ -29,6 +29,7 @@ struct ContentView: View {
           NavigationLink("Custom Objects With AppStorage", destination: CustomAppStorageView())
           NavigationLink("Matched Geometry Effect", destination: MatchedGeometrySample())
           NavigationLink("MusicPlayer Matched Geo Effect", destination: MusicPlayerMatchedGeometry())
+          NavigationLink("Redacted Data", destination: RedactedSampleView())
         }
       }
       .navigationBarTitle("SwiftUI 2.0 Components", displayMode: .inline)

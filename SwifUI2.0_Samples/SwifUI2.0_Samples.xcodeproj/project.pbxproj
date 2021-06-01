@@ -29,6 +29,7 @@
 		88A5C0FD26658FBF0035DD31 /* CountObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C0FC26658FBF0035DD31 /* CountObjectView.swift */; };
 		88A5C100266598E10035DD31 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C0FF266598E10035DD31 /* RatingsView.swift */; };
 		88A5C102266599D30035DD31 /* TestRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5C101266599D30035DD31 /* TestRating.swift */; };
+		88FC78C6266615520017AE1E /* RedactedSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC78C5266615520017AE1E /* RedactedSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		88A5C0FC26658FBF0035DD31 /* CountObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountObjectView.swift; sourceTree = "<group>"; };
 		88A5C0FF266598E10035DD31 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		88A5C101266599D30035DD31 /* TestRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRating.swift; sourceTree = "<group>"; };
+		88FC78C5266615520017AE1E /* RedactedSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		881A19F626657D7E0002B674 /* SwifUI2.0_Samples */ = {
 			isa = PBXGroup;
 			children = (
+				88FC78C42666152F0017AE1E /* Redacted_Data */,
 				8827DC8D2665C4B300A0E372 /* MusicPlayer */,
 				8827DC8A2665BF7E00A0E372 /* matchedGeometryEffect */,
 				8827DC872665BD5F00A0E372 /* CustomObjectsWithAppStorage */,
@@ -235,6 +238,14 @@
 			path = AddCustomViewsAndControls;
 			sourceTree = "<group>";
 		};
+		88FC78C42666152F0017AE1E /* Redacted_Data */ = {
+			isa = PBXGroup;
+			children = (
+				88FC78C5266615520017AE1E /* RedactedSampleView.swift */,
+			);
+			path = Redacted_Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,6 +326,7 @@
 				8827DC862665BA2900A0E372 /* ForegroundOperations.swift in Sources */,
 				88A5C102266599D30035DD31 /* TestRating.swift in Sources */,
 				8827DC8F2665C4C500A0E372 /* MusicPlayerMatchedGeometry.swift in Sources */,
+				88FC78C6266615520017AE1E /* RedactedSampleView.swift in Sources */,
 				88A5C100266598E10035DD31 /* RatingsView.swift in Sources */,
 				8827DC7A2665ACD400A0E372 /* ListModel.swift in Sources */,
 				8827DC782665ABEF00A0E372 /* OutlineGroupExample.swift in Sources */,

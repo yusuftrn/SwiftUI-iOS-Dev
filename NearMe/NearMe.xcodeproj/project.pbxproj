@@ -17,6 +17,7 @@
 		881A19C626655C210002B674 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A19C526655C210002B674 /* Landmark.swift */; };
 		881A19C826655D1F0002B674 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A19C726655D1F0002B674 /* LandmarkAnnotation.swift */; };
 		881A19CA266565120002B674 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A19C9266565120002B674 /* PlaceListView.swift */; };
+		884672F52669703100CC219A /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884672F42669703100CC219A /* MKCoordinateRegion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		881A19C526655C210002B674 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		881A19C726655D1F0002B674 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
 		881A19C9266565120002B674 /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		884672F42669703100CC219A /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		881A19AB266553750002B674 /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
+				884672F32669701800CC219A /* Extensions */,
 				881A19C426655C170002B674 /* Models */,
 				881A19C1266555C70002B674 /* Managers */,
 				881A19BE266555120002B674 /* Coordinator */,
@@ -117,6 +120,14 @@
 				881A19C726655D1F0002B674 /* LandmarkAnnotation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		884672F32669701800CC219A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				884672F42669703100CC219A /* MKCoordinateRegion.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			files = (
 				881A19C02665551E0002B674 /* Coordinator.swift in Sources */,
 				881A19AF266553760002B674 /* ContentView.swift in Sources */,
+				884672F52669703100CC219A /* MKCoordinateRegion.swift in Sources */,
 				881A19CA266565120002B674 /* PlaceListView.swift in Sources */,
 				881A19C826655D1F0002B674 /* LandmarkAnnotation.swift in Sources */,
 				881A19C3266555D30002B674 /* LocationManager.swift in Sources */,

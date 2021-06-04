@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
-        <page name='basic_encode_decode'/>
-        <page name='decoding_json_arr'/>
-        <page name='decoding_key_value_types'/>
-        <page name='decode_key_value_using_response_model'/>
-        <page name='decode_nested_object'/>
-        <page name='decode_enums_dates'/>
-        <page name='handling_property_name_mismatches'/>
+        <page name='1_basic_encode_decode'/>
+        <page name='2_decoding_json_arr'/>
+        <page name='3_decoding_key_value_types'/>
+        <page name='4_decode_key_value_using_response_model'/>
+        <page name='5_decode_nested_object'/>
+        <page name='6_decode_enums_dates'/>
+        <page name='7_handling_property_name_mismatches'/>
+        <page name='8_decoding_arbitary_types'/>
+        <page name='9_decoding_inherited_types'/>
+        <page name='10_decoding_from_different_types_of_values'/>
+        <page name='11_implement_custom_encoding_format'/>
+        <page name='12_decoding_json_to_flat_model'/>
+        <page name='13_consuming_json_from_webapi'/>
     </pages>
 </playground>

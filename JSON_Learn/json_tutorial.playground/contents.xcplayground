@@ -7,5 +7,6 @@
         <page name='decode_key_value_using_response_model'/>
         <page name='decode_nested_object'/>
         <page name='decode_enums_dates'/>
+        <page name='handling_property_name_mismatches'/>
     </pages>
 </playground>

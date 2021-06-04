@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='basic_encode_decode'/>
+        <page name='decoding_json_arr'/>
+        <page name='decoding_key_value_types'/>
+        <page name='decode_key_value_using_response_model'/>
+        <page name='decode_nested_object'/>
+        <page name='decode_enums_dates'/>
+    </pages>
+</playground>

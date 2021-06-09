@@ -23,7 +23,7 @@ struct EmojiMemoryGameView: View {
 
 struct CardView: View {
   var card: MemoryGame<String>.Card
-
+  
   //MARK: - Drawing Constants
   let cornerRadius: CGFloat = 10.0
   let edgeLineWidth: CGFloat = 3.0
